@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(226, 208, 187);
+}
+
+.imageediter {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -205px 0 0 -410px;
+    padding: 10px 10px 0;
+    width: 810px;
+    height: 410px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, .1);
+}
+.imageediter-wrap {
+    display: flex;
+}
+.imageediter-container {
+    width: 600px;
+    height: 360px;
+    background: rgb(245, 240, 235);
+}
+.imageediter-container canvas {
+    width: 100%;
+    height: 100%;
+}
+.imageediter-info {
+    margin-left: 10px;
+    width: 180px;
+    height: 360px;
+    background: rgb(245, 240, 235);
+}
+.imageediter-btns {
+    display: flex;
+    height: 40px;
+    font-size: 16px;
+}
+.imageediter-btn {
+    flex: 1;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(158, 110, 61);
+}
